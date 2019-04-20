@@ -1,4 +1,4 @@
-node{
+node("production"){
 stage("checkout"){
 git"https://github.com/narrasubbarao/mavenrepo.git"
 }
